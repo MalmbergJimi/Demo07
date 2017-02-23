@@ -45,7 +45,8 @@
                           IsChecked="False"/>
               </StackPanel>
             <Button x:Name="saveButton" Content="Save"
-                    Margin="0,10"/>
+                    Margin="0,10"
+                    Click="saveButton_Click"/>
         </StackPanel>
         
         <!-- RIGHT COLUMN -->

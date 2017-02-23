@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -33,6 +34,17 @@ namespace EmployeeApp
             ApplicationView.PreferredLaunchViewSize = new Size(800, 600);
             //disable debugger info
             App.Current.DebugSettings.EnableFrameRateCounter = false;
+        }
+
+        private void saveButton_Click(object sender, RoutedEventArgs e)
+        {
+            Debug.WriteLine("Name: " + NameTextBox.Text);
+            Debug.WriteLine("Email: " + emailTextBox.Text);
+            if ((bool)normalUserCheckBox.IsChecked)
+           { 
+                Debug.WriteLine("Normal user!");
+            }
+            
         }
     }
 }
