@@ -8,11 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer HorizontalAlignment="Left" Height="293" Margin="88,196,0,0" VerticalAlignment="Top" Width="363">
+            <TextBlock x:Name="textBlockTulokset" HorizontalAlignment="Left" Height="293" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376"/>
+        </ScrollViewer>
         <Button x:Name="buttonDraw" Content="Draw" HorizontalAlignment="Left" Margin="133,111,0,0" VerticalAlignment="Top" Click="buttonDraw_Click"/>
         <Button x:Name="buttonClear" Content="Clear" HorizontalAlignment="Left" Margin="237,111,0,0" VerticalAlignment="Top" Click="buttonClear_Click"/>
         <TextBox x:Name="textBoxDraws" HorizontalAlignment="Left" Margin="237,49,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="21"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="50,49,0,0" TextWrapping="Wrap" Text="Number of draws:" VerticalAlignment="Top" SelectionChanged="textBlock_SelectionChanged" Height="32" Width="120"/>
-        <TextBlock x:Name="textBlockTulokset" HorizontalAlignment="Left" Height="157" Margin="84,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
+
 
     </Grid>
 </Page>

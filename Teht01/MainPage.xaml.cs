@@ -45,47 +45,49 @@ namespace Teht01
             Lotto kone = new Lotto();
             int kymppi = 10;
             textBlockTulokset.Text = textBlockTulokset.Text + "  " + kymppi.ToString("0");
-            /*  OHJELMA KAATUU KUN OTTAA kone.Arvonta(); methodin mukaan
-            kone.Arvonta();
             
-            List<int> lista;
-            int number = kone.numero;
-            lista = kone.valmislista;
-            int abba;
-            int kymppi = 10;
-            string merkkijono;
+            
+            /*  OHJELMA KAATUU KUN OTTAA kone.Arvonta(); methodin mukaan
+           kone.Arvonta();
 
-            merkkijono = lista[0].ToString("0.0");
+          List<int> lista;
+          int number = kone.numero;
+          lista = kone.valmislista;
+          int abba;
+          int kymppi = 10;
+          string merkkijono;
 
-            // abba = lista[0];
+          merkkijono = lista[0].ToString("0.0");
 
-            //    textBoxDraws.Text = merkkijono;
-          
+          // abba = lista[0];
 
-
-
+          //    textBoxDraws.Text = merkkijono;
 
 
 
-            /*
-             * 
-             *  lista.ForEachRow(textBlockTulokset + lista.ToString(row));
-               foreach (int int kone.valmislista)
-                
-                kone.valmislista.ForEach(row => textBlockTulokset + ToString(row));
 
-            int i = 0;
-            for (i = 0; i < kone.valmislista.Length; i++)     // For-silmukka
-            {
-                
-                 *  foreach (Person person in persons)
-            {
-                Console.WriteLine(person.ToString());
-            }
-                textBlockTulokset = kone.valmislista;
-                list.ForEach(item => Console.Write(item + ","));
 
-        */
+
+
+          /*
+           * 
+           *  lista.ForEachRow(textBlockTulokset + lista.ToString(row));
+             foreach (int int kone.valmislista)
+
+              kone.valmislista.ForEach(row => textBlockTulokset + ToString(row));
+
+          int i = 0;
+          for (i = 0; i < kone.valmislista.Length; i++)     // For-silmukka
+          {
+
+               *  foreach (Person person in persons)
+          {
+              Console.WriteLine(person.ToString());
+          }
+              textBlockTulokset = kone.valmislista;
+              list.ForEach(item => Console.Write(item + ","));
+
+      */
 
 
 
