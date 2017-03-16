@@ -15,13 +15,13 @@ namespace Teht01
 
         public void Arvonta()
         {
-            int i = 0;
-            if (i < 7) { 
+            int y = 0;
+            if (y < 7) { 
                 
                 Random rand = new Random();
                 int numero = rand.Next(1, 39 + 1);
                 lista.Add(numero);
-                i++;
+                y++;
             }
         else
             {

@@ -45,8 +45,9 @@ namespace Teht01
             Lotto kone = new Lotto();
             int kymppi = 10;
             textBlockTulokset.Text = textBlockTulokset.Text + "  " + kymppi.ToString("0");
-            /*
+            /*  OHJELMA KAATUU KUN OTTAA kone.Arvonta(); methodin mukaan
             kone.Arvonta();
+            
             List<int> lista;
             int number = kone.numero;
             lista = kone.valmislista;
